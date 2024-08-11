@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Cheating Script - Advanced Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anti-Cheating Script - Advanced Detection</h1>
+    <textarea id="inputText" placeholder="Enter text to check..."></textarea>
+    <br>
+    <button onclick="checkForCheating()">Check for Cheating</button>
+    <div id="result"></div>
+
+    <script>
+        function checkForCheating() {
+            const inputText = document.getElementById('inputText').value.toLowerCase();
+            let result = document.getElementById('result');
+
+            // Advanced detection logic
+            const complexVocabulary = ["ephemeral", "juxtaposition", "dichotomy", "quintessential", "paradigm"];
+            const aiPatterns = ["in conclusion", "thus", "therefore", "furthermore", "moreover", "in addition"];
+
+            // Check for complex vocabulary
+            let complexDetected = complexVocabulary.some(word => inputText.includes(word));
+            // Check for AI patterns
+            let aiDetected = aiPatterns.some(pattern => inputText.includes(pattern));
+
+            if (complexDetected || aiDetected) {
+                result.innerHTML = "Text may have been involved in cheating, larger-graded language or AI-generated patterns detected.";
+            } else {
+                result.innerHTML = "Input was scanned, and did not identify or detect anything wrong.";
+            }
+        }
+    </script>
+</body>
+</html>

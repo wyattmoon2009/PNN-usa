@@ -1,0 +1,16 @@
+Ver 1.00 AUG 11 2024 17:34 - UPDATE; 0001
+
+Public Beta Release via GitHub, working on exporting to an HTML website itself and eventually to an individual program.
+This feature is based off of Windows 2000, meaning the HTML code can be run on machines for Windows 98, Mac OS 8.5 or Debian 2.1 or later as an Linux program.
+
+
+
+Ver 1.1 will bring some performance upgrades including minor changes and base security upgrades (BSU, NOT OPENBSD / FREEBSD) coming soon.
+
+
+
+
+
+
+Copyright (C) 2024 Divergent Programming, an open source distributor.
+We do not list off warranties, but instead the issue may be fixed with an later firmware upgrade.

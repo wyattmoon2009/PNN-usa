@@ -1,0 +1,15 @@
+This program was written by Wyatt Moon, the founder of the program file and also specializes in railroad photography for 10 years.
+
+
+
+This program is open source, so you can change how it looks and share it with other people. However, you cannot tamper with the internal sharing script or it will become malicious and an investigation will be launched.
+
+
+This program is currently under development, so some features or checking may not be available and can pose a false positive.
+I do not specialize in coding, but I also wanted a "CheatAI" for other students so they do not make the same mistake. Therefore, the coding was done using ChatGPT.
+
+
+The current version is 1.00, please see UPDATE file for information.
+
+
+Please contact the operator if there is an major issue with the script, and we will fix it as soon as we are able to do so.
